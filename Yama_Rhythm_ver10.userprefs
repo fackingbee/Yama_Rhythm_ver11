@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Yama_GUISystems/zYama_GUI_Resources/Scripts/OnBack00.cs">
+    <Files>
+      <File FileName="Assets/CharacterManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Yama_GUISystems/zYama_GUI_Resources/Scripts/OnBack00.cs" Line="77" Column="6" />
+      <File FileName="Assets/Yama_GUISystems/zYama_GUI_Resources/Scripts/OnBack01.cs" Line="1" Column="1" />
+      <File FileName="Assets/Yama_GUISystems/zYama_GUI_Resources/Scripts/OnBack02.cs" Line="1" Column="1" />
+      <File FileName="Assets/Yama_GUISystems/zYama_GUI_Resources/Scripts/OnBack03.cs" Line="1" Column="1" />
+      <File FileName="Assets/Yama_GUISystems/zYama_GUI_Resources/Scripts/OnBack04.cs" Line="1" Column="1" />
+      <File FileName="Assets/Yama_GUISystems/zYama_GUI_Resources/Scripts/OnBack05.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

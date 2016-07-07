@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{505AAEB5-07A2-5229-9125-207154B0A9D6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_3;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_TEXTUREID_MAP;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;WWW_USE_CURL;HAS_NEON_SKINNIG;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\CharacterManager.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animation\BlendAnimationEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animation\CrossFadeAnimationEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animation\PlayAnimationEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animation\RewindAnimationEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animation\SampleAnimationEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animation\StopAnimationEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\CrossFadeAnimatorEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\LookAtTarget.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\MatchTargetEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\PlayAnimatorEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetBoolAnimatorEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetFloatAnimatorEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetIKPositionAnimatorEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetIKPositionWeightAnimatorEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetIKRotationAnimatorEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetIKRotationWeightAnimatorEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetIntegerAnimatorEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetLayerWeightAnimatorEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetLookAtPositionAnimatorEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetLookAtWeightAnimatorEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetTargetAnimatorEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Animator\SetTriggerAnimatorEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\AudioSource\PauseAudioEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\AudioSource\PlayAudioEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\AudioSource\PlayOneShotAudioEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\AudioSource\StopAudioEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\GameObject\DisableBehaviour.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\GameObject\DisableGameObject.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\GameObject\EnableBehaviour.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\GameObject\EnableGameObject.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\GameObject\EnableGameObjectAction.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\GameObject\SendMessageGameObject.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Light\SetColorLight.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Light\SetIntensityLight.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Navigation\SetDestinationEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Particles\PauseParticleSystemEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Particles\PlayParticleSystemEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Particles\StopParticleSystemEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Rigidbody\ApplyForceEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Rigidbody\ApplyTorqueEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Rigidbody\RigidbodySleepEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Rigidbody\RigidbodyWakeUpEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Rigidbody\SetMassEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Rigidbody\ToggleGravityEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Transform\AttachChildrenEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Transform\DetachChildrenEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Transform\SetParent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Transform\SetPositionEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Transform\SetTransformEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\Transform\TransformLookAtAction.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\uGUI\CanvasCameraSwitchEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\uGUI\ColorChange.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\uGUI\SetIsInteractable.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\uGUI\TextDegenerationEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Actor Items\uGUI\TextGenerationEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Core\CinemaAudio.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Core\CinemaShot.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Global Items\AudioSource\PlayClipAtPointAudioEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Cutscene\PauseCutscene.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Cutscene\PlayCutscene.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Cutscene\StopCutscene.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Debug\DebugLogErrorEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Debug\DebugLogMessageEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Debug\DebugLogWarningEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Global Items\GUITexture\FadeTexture.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Global Items\GameObject\DisableGameObjectGlobal.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Global Items\GameObject\EnableGameObjectGlobal.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Time\SetTimeScaleEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Time\TimeScaleCurveAction.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Transitions\ColorTransition.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Transitions\FadeFromBlack.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Transitions\FadeFromWhite.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Transitions\FadeToBlack.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Transitions\FadeToWhite.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Utility\LoadLevelEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Utility\MassDisabler.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Cutscene Items\Global Items\Utility\StoryboardEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\Example Cutscene Items\ExampleShrinkAction.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Common\Reflection\ReflectionHelper.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\Cutscene.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\Enums\CutsceneItemGenre.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\Enums\PlaybackMode.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\Enums\PropertyTypeInfo.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\Enums\RevertMode.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\Enums\TimelineTrackGenre.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\Helpers\AnimationCurveHelper.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\Helpers\CutsceneQueue.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\Helpers\CutsceneTrigger.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\Helpers\DirectorRuntimeHelper.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\Helpers\IBakeable.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\Helpers\IOptimizable.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\Helpers\IRevertable.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\Helpers\RevertInfo.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\Helpers\ScreenshotCapture.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\Base\CinemaClipCurve.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\Base\CinemaTween.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\Base\CutsceneItemAttribute.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\Base\MemberClipCurveData.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\Base\TimelineAction.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\Base\TimelineActionFixed.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\Base\TimelineItem.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\CinemaActorAction.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\CinemaActorClipCurve.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\CinemaActorEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\CinemaGlobalAction.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\CinemaGlobalEvent.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineItems\CinemaMultiActorCurveClip.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\ActorItemTrack.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\AudioTrack.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\Base\IActorTrack.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\Base\IMultiActorTrack.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\Base\TimelineTrack.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\Base\TimelineTrackAttribute.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\CurveTrack.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\DialogueTrack.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\GlobalItemTrack.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\MecanimTrack.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\MultiCurveTrack.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\ShotTrack.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TimelineTracks\TransformTrack.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TrackGroups\ActorTrackGroup.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TrackGroups\Base\TrackGroup.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TrackGroups\Base\TrackGroupAttribute.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TrackGroups\CharacterTrackGroup.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TrackGroups\DirectorGroup.cs" />
+     <Compile Include="Assets\Cinema Suite\Cinema Director\System\Runtime\TrackGroups\MultiActorTrackGroup.cs" />
+     <Compile Include="Assets\InstantiateCharacter.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX3_Demo.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_New.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_Translate.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\UI\CFX_Demo_GTButton.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\UI\CFX_Demo_GTToggle.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutodestructWhenNoChildren.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_InspectorHelp.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_ShurikenThreadFix.cs" />
+     <Compile Include="Assets\JMO Assets\Cartoon FX\Spawn System\CFX_SpawnSystem.cs" />
+     <Compile Include="Assets\MagicArsenal\InteractiveDemo\Scripts\ButtonScript.cs" />
+     <Compile Include="Assets\MagicArsenal\InteractiveDemo\Scripts\DragMouseOrbit.cs" />
+     <Compile Include="Assets\MagicArsenal\InteractiveDemo\Scripts\FireProjectile.cs" />
+     <Compile Include="Assets\MagicArsenal\InteractiveDemo\Scripts\LoadSceneOnClick.cs" />
+     <Compile Include="Assets\MagicArsenal\InteractiveDemo\Scripts\Projectile.cs" />
+     <Compile Include="Assets\MagicArsenal\InteractiveDemo\Scripts\ProjectileScript.cs" />
+     <Compile Include="Assets\MagicArsenal\InteractiveDemo\Scripts\loopScript.cs" />
+     <Compile Include="Assets\MagicArsenal\InteractiveDemo\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\MagicArsenal\KunaiEditor\KunaiRotation.cs" />
+     <Compile Include="Assets\MagicArsenal\Scripts\lightScript.cs" />
+     <Compile Include="Assets\MagicArsenal\Scripts\lightScriptLong.cs" />
+     <Compile Include="Assets\MegaBook\Scripts\MBComplexPage.cs" />
+     <Compile Include="Assets\MegaBook\Scripts\MegaBookBendMod.cs" />
+     <Compile Include="Assets\MegaBook\Scripts\MegaBookBuilder.cs" />
+     <Compile Include="Assets\MegaBook\Scripts\MegaBookControl.cs" />
+     <Compile Include="Assets\MegaBook\Scripts\MegaBookDynamicMesh.cs" />
+     <Compile Include="Assets\MegaBook\Scripts\MegaBookMatrix.cs" />
+     <Compile Include="Assets\MegaBook\Scripts\MegaBookMouseControl.cs" />
+     <Compile Include="Assets\MegaBook\Scripts\MegaBookPage.cs" />
+     <Compile Include="Assets\MegaBook\Scripts\MegaBookPageAttach.cs" />
+     <Compile Include="Assets\MegaBook\Scripts\MegaBookVisible.cs" />
+     <Compile Include="Assets\MegaBook\Scripts\TextMeshProMesh.cs" />
+     <Compile Include="Assets\MegaBook\Scripts\TypogenicMesh.cs" />
+     <Compile Include="Assets\ResourceGlobes\DemoScene\DemoScript.cs" />
+     <Compile Include="Assets\ResourceGlobes\RB_ProgressChange.cs" />
+     <Compile Include="Assets\TypefaceAnimator\Demo\Scripts\Demo1.cs" />
+     <Compile Include="Assets\TypefaceAnimator\Demo\Scripts\Demo2.cs" />
+     <Compile Include="Assets\TypefaceAnimator\Scripts\TypefaceAnimator.cs" />
+     <Compile Include="Assets\Yama_CutIn\Scripts\CutInFillAmount.cs" />
+     <Compile Include="Assets\Yama_CutIn\Scripts\CutInFillAmountEnemy.cs" />
+     <Compile Include="Assets\Yama_CutIn\Scripts\EnemyDamage.cs" />
+     <Compile Include="Assets\Yama_CutIn\Scripts\EnemyPowerGageHandler.cs" />
+     <Compile Include="Assets\Yama_CutIn\Scripts\EnemyPowerProgress.cs" />
+     <Compile Include="Assets\Yama_CutIn\Scripts\PlayerDamage.cs" />
+     <Compile Include="Assets\Yama_CutIn\Scripts\PlayerPowerGageHandler.cs" />
+     <Compile Include="Assets\Yama_CutIn\Scripts\PowerProgress.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Example\Scripts\MessageBoxExample.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Example\Scripts\MessageContainerExample.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Integrations\ICode\Actions\AddMessage.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Integrations\ICode\Actions\ClearContainer.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Integrations\ICode\Actions\Close.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Integrations\ICode\Actions\Focus.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Integrations\ICode\Actions\GetWidget.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Integrations\ICode\Actions\RemoveMessage.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Integrations\ICode\Actions\SetProgress.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Integrations\ICode\Actions\Show.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Integrations\ICode\Actions\ShowMessageBox.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Integrations\ICode\Actions\Toggle.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\Chat.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\DragPanel.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\IValidation.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\KeyTrigger.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\MessageBox.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\MessageContainer.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\MessageOptions.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\MessageSlot.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\Progressbar.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\RadialMenu.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\RadialMenuItem.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\RadialMenuTrigger.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\ResizePanel.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\Tooltip.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\TooltipTrigger.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\Tween\EasingEquations.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\Tween\FloatTween.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\Tween\ITweenValue.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\Tween\TweenRunner.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\Tween\Vector3Tween.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\UIContainer.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\UICursor.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\UISlot.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\UIUtility.cs" />
+     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Runtime\UIWidget.cs" />
+     <Compile Include="Assets\Yama_GUISystems\uGUI_Skin_pack\Scripts\ListBox.cs" />
+     <Compile Include="Assets\Yama_GUISystems\uGUI_Skin_pack\Scripts\MasterSkinManager.cs" />
+     <Compile Include="Assets\Yama_GUISystems\uGUI_Skin_pack\Scripts\Slider360.cs" />
+     <Compile Include="Assets\Yama_GUISystems\uGUI_Skin_pack\Scripts\Switch.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack00.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack01.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack02.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack03.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack04.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack05.cs" />
+     <Compile Include="Assets\Yama_PlayerTurn\Scripts\PlayerAttackCreate.cs" />
+     <Compile Include="Assets\Yama_PlayerTurn\Scripts\PlayerAttackMove.cs" />
+     <Compile Include="Assets\Yama_PlayerTurn\Scripts\RandomPathMove.cs" />
+     <Compile Include="Assets\Yama_Prefabs_Effects\Scripts\AutoEffectsDestroy.cs" />
+     <Compile Include="Assets\Yama_Prefabs_Effects\Scripts\DamageShake.cs" />
+     <Compile Include="Assets\Yama_Prefabs_Effects\Scripts\ParticleSize.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\AudioManager.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\AutoDestroy.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\BoardMove.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\ComboHandler.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\ComboManager.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\FrameManager.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\GageHandler.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\GameController.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\GameDate.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\GameFrame.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\LightMove.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\LongTapHandler.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\MiniJSON.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\MusicDate.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\PathRotate.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\PointHandler.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\Retry.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\ScoreCreator.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\ScoreHandler.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\ScoreLongUpController.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\Shadow2.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\Shadow_AfterImage.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\SpriteShadow.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Common\TimeManager.cs" />
+     <Compile Include="Assets\Yama_Scripts\Battle_Music\Music_01_Manager.cs" />
+     <Compile Include="Assets\Yama_Scripts2\MovieImage.cs" />
+     <Compile Include="Assets\Yama_Scripts2\OpeningToTopMenu.cs" />
+     <Compile Include="Assets\Yama_Scripts2\RogoToOpening.cs" />
+     <Compile Include="Assets\Yama_Scripts2\StartToRogo.cs" />
+     <Compile Include="Assets\Yama_Scripts2\ToGame.cs" />
+     <Compile Include="Assets\Yama_StartAction\Scripts\CRT.cs" />
+     <Compile Include="Assets\Yama_StartAction\Scripts\StaratActionEnemyInvoke.cs" />
+     <Compile Include="Assets\Yama_StartAction\Scripts\StartActionDoorInvoke.cs" />
+     <Compile Include="Assets\Yama_StartAction\Scripts\StartFadeInOff.cs" />
+     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\MegaBook\ReadMe.txt" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\ButterflyParticles\ButterflyParticles - Readme.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Cinema Suite\Cinema Director\Example Scenes\Shaders\Additive.shader" />
+     <None Include="Assets\Cinema Suite\Cinema Director\ReadMe.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\Yama_StartAction\Materals\CRTShader.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX3 Readme.txt" />
+     <None Include="Assets\ResourceGlobes\RB_GlobeCutoutShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Cinema Suite\Cinema Director\link.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\MagicArsenal\MagicArsenal - ReadMe.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Invert.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\TypefaceAnimator\Demo\Fonts\BitmapFont.xml" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\ResourceGlobes\RB_GlobeSpriteCutoutShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Yama_GUISystems\Yamato GUI\Yamato 2.0\Sliced v2\Secondary Action Bars\choose.txt" />
+     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Changelog.txt" />
+     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\MagicArsenal\KunaiEditor\Editor\Readme.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\Cinema Suite\Cinema Director\ChangeLog.txt" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\ResourceGlobes\RB_GlobeShader.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{BD8B634A-5C7E-01E2-9A0F-A1AEC89D052D}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
