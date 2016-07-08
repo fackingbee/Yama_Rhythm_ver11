@@ -269,6 +269,9 @@
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack03.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack04.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack05.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\PageControl.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\PagingScrollViewController.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\ViewController.cs" />
      <Compile Include="Assets\Yama_PlayerTurn\Scripts\PlayerAttackCreate.cs" />
      <Compile Include="Assets\Yama_PlayerTurn\Scripts\PlayerAttackMove.cs" />
      <Compile Include="Assets\Yama_PlayerTurn\Scripts\RandomPathMove.cs" />
