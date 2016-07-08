@@ -21,7 +21,7 @@ public class OnBack04 : MonoBehaviour {
 	private Color       offBackColor04 = new Color (1.0f, 1.0f, 1.0f, 0.5f);
 
 	void Awake(){
-		onBackImage04 = GameObject.Find ("etcBack");
+		onBackImage04 = GameObject.Find ("ShopBack");
 		image04       = onBackImage04.GetComponent<Image> ();
 		tabShadow04   = GameObject.Find ("TabShadow04");
 		imageShadow04 = tabShadow04.GetComponent<Image> ();
@@ -39,10 +39,10 @@ public class OnBack04 : MonoBehaviour {
 	void Update () {
 		if(isChecked == true && toggle04.isOn == true){
 			OnImage04 ();
-			//Debug.Log ("hoge_4_1");
+			Debug.Log ("hoge_4_1");
 		}else if(isChecked == false && toggle04.isOn == false){
 			OffImage04 ();
-			//Debug.Log ("hoge_4_2");
+			Debug.Log ("hoge_4_2");
 		}
 		if(isTouch && toggle04.isOn == true){
 			audioSource.PlayOneShot (onButton04,0.6f);

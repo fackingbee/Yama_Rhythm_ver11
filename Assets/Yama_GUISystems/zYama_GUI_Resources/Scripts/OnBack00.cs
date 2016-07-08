@@ -16,11 +16,11 @@ public class OnBack00 : MonoBehaviour {
 	private GameObject  onBackImage00;	// 背景画のON・OFF
 	private GameObject  tabShadow00;	// アイコン影のON・OFF
 	private bool        isChecked;		// Update進入フラグ管理
+	private bool        isTouch;		// SEは一度再生したらもう鳴らさない
 	private Image       image00;		// 背景画のON・OFF
 	private Image       imageShadow00;	// アイコン影のON・OFF
 	public  AudioClip   onButton00;		// SE格納
 	private AudioSource audioSource;	// SE取得
-	private bool        isTouch;		// 一度再生したらもう鳴らさない
 
 	// 例外：OnBack00.csだけの処理（開始直後に再生しない為、カウントを設ける）
 	private int count = 0;
@@ -78,7 +78,7 @@ public class OnBack00 : MonoBehaviour {
 
 		} 
 
-		// 開智直後にSEが再生しないように、countを設ける。最低でも一回、isOnがOFFになったらOK
+		// 開始直後にSEが再生しないように、countを設ける。最低でも一回、isOnがOFFになったらOK
 		if(isTouch && toggle00.isOn == true && count > 0){
 			
 			// 再生

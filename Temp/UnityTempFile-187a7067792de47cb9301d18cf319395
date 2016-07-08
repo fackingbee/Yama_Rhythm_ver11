@@ -1,0 +1,358 @@
+-debug
+-target:library
+-nowarn:0169
+-out:'Temp/Assembly-CSharp.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll'
+-r:'/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll'
+-define:UNITY_5_3_3
+-define:UNITY_5_3
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_SPRITE_POLYGON
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:ENABLE_EDITOR_TESTS_RUNNER
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GAMECENTER
+-define:ENABLE_NETWORK
+-define:ENABLE_LOG_MIXED_STACKTRACE
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_TEXTUREID_MAP
+-define:PLAYERCONNECTION_LISTENS_FIXED_PORT
+-define:DEBUGGER_LISTENS_FIXED_PORT
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:SUPPORT_ENVIRONMENT_VARIABLES
+-define:PLATFORM_SUPPORTS_PROFILER
+-define:PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR
+-define:STRICTCPP_NEW_DELETE_SIGNATURES
+-define:WWW_USE_CURL
+-define:HAS_NEON_SKINNIG
+-define:UNITY_INPUT_SIMULATE_EVENTS
+-define:PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:UNITY_IOS
+-define:UNITY_IPHONE
+-define:UNITY_IPHONE_API
+-define:SUPPORT_MULTIPLE_DISPLAYS
+-define:ENABLE_IL2CPP
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_OSX
+-define:ENABLE_IOS_ON_DEMAND_RESOURCES
+-define:ENABLE_IOS_APP_SLICING
+'Assets/CharacterManager.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/BlendAnimationEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/CrossFadeAnimationEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/PlayAnimationEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/RewindAnimationEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/SampleAnimationEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animation/StopAnimationEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animator/CrossFadeAnimatorEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animator/LookAtTarget.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animator/MatchTargetEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animator/PlayAnimatorEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animator/SetBoolAnimatorEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animator/SetFloatAnimatorEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animator/SetIKPositionAnimatorEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animator/SetIKPositionWeightAnimatorEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animator/SetIKRotationAnimatorEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animator/SetIKRotationWeightAnimatorEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animator/SetIntegerAnimatorEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animator/SetLayerWeightAnimatorEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animator/SetLookAtPositionAnimatorEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animator/SetLookAtWeightAnimatorEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animator/SetTargetAnimatorEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Animator/SetTriggerAnimatorEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/AudioSource/PauseAudioEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/AudioSource/PlayAudioEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/AudioSource/PlayOneShotAudioEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/AudioSource/StopAudioEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableBehaviour.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/DisableGameObject.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableBehaviour.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObject.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/EnableGameObjectAction.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/GameObject/SendMessageGameObject.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Light/SetColorLight.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Light/SetIntensityLight.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Navigation/SetDestinationEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Particles/PauseParticleSystemEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Particles/PlayParticleSystemEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Particles/StopParticleSystemEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Rigidbody/ApplyForceEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Rigidbody/ApplyTorqueEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Rigidbody/RigidbodySleepEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Rigidbody/RigidbodyWakeUpEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Rigidbody/SetMassEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Rigidbody/ToggleGravityEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Transform/AttachChildrenEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Transform/DetachChildrenEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Transform/SetParent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Transform/SetPositionEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Transform/SetTransformEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/Transform/TransformLookAtAction.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/CanvasCameraSwitchEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/ColorChange.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/SetIsInteractable.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/TextDegenerationEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Actor Items/uGUI/TextGenerationEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Core/CinemaAudio.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Core/CinemaShot.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Global Items/AudioSource/PlayClipAtPointAudioEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Cutscene/PauseCutscene.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Cutscene/PlayCutscene.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Cutscene/StopCutscene.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Debug/DebugLogErrorEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Debug/DebugLogMessageEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Debug/DebugLogWarningEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Global Items/GUITexture/FadeTexture.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Global Items/GameObject/DisableGameObjectGlobal.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Global Items/GameObject/EnableGameObjectGlobal.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Time/SetTimeScaleEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Time/TimeScaleCurveAction.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/ColorTransition.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeFromBlack.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeFromWhite.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeToBlack.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Transitions/FadeToWhite.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Utility/LoadLevelEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Utility/MassDisabler.cs'
+'Assets/Cinema Suite/Cinema Director/Cutscene Items/Global Items/Utility/StoryboardEvent.cs'
+'Assets/Cinema Suite/Cinema Director/Example Cutscene Items/ExampleShrinkAction.cs'
+'Assets/Cinema Suite/Cinema Director/System/Common/Reflection/ReflectionHelper.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/Cutscene.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/Enums/CutsceneItemGenre.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/Enums/PlaybackMode.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/Enums/PropertyTypeInfo.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/Enums/RevertMode.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/Enums/TimelineTrackGenre.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/Helpers/AnimationCurveHelper.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneQueue.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/Helpers/CutsceneTrigger.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/Helpers/DirectorRuntimeHelper.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/Helpers/IBakeable.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/Helpers/IOptimizable.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/Helpers/IRevertable.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/Helpers/RevertInfo.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/Helpers/ScreenshotCapture.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/Base/CinemaClipCurve.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/Base/CinemaTween.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/Base/CutsceneItemAttribute.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/Base/MemberClipCurveData.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/Base/TimelineAction.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/Base/TimelineActionFixed.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/Base/TimelineItem.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorAction.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorClipCurve.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaActorEvent.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaGlobalAction.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaGlobalEvent.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineItems/CinemaMultiActorCurveClip.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ActorItemTrack.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/AudioTrack.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/Base/IActorTrack.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/Base/IMultiActorTrack.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/Base/TimelineTrack.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/Base/TimelineTrackAttribute.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/CurveTrack.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/DialogueTrack.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/GlobalItemTrack.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/MecanimTrack.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/MultiCurveTrack.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/ShotTrack.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TimelineTracks/TransformTrack.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/ActorTrackGroup.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/Base/TrackGroup.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/Base/TrackGroupAttribute.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/CharacterTrackGroup.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/DirectorGroup.cs'
+'Assets/Cinema Suite/Cinema Director/System/Runtime/TrackGroups/MultiActorTrackGroup.cs'
+'Assets/InstantiateCharacter.cs'
+'Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX3_Demo.cs'
+'Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX_AutoStopLoopedEffect.cs'
+'Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX_Demo_New.cs'
+'Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX_Demo_RotateCamera.cs'
+'Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX_Demo_Translate.cs'
+'Assets/JMO Assets/Cartoon FX/Demo/UI/CFX_Demo_GTButton.cs'
+'Assets/JMO Assets/Cartoon FX/Demo/UI/CFX_Demo_GTToggle.cs'
+'Assets/JMO Assets/Cartoon FX/Scripts/CFX_AutoDestructShuriken.cs'
+'Assets/JMO Assets/Cartoon FX/Scripts/CFX_AutodestructWhenNoChildren.cs'
+'Assets/JMO Assets/Cartoon FX/Scripts/CFX_InspectorHelp.cs'
+'Assets/JMO Assets/Cartoon FX/Scripts/CFX_LightIntensityFade.cs'
+'Assets/JMO Assets/Cartoon FX/Scripts/CFX_ShurikenThreadFix.cs'
+'Assets/JMO Assets/Cartoon FX/Spawn System/CFX_SpawnSystem.cs'
+'Assets/MagicArsenal/InteractiveDemo/Scripts/ButtonScript.cs'
+'Assets/MagicArsenal/InteractiveDemo/Scripts/DragMouseOrbit.cs'
+'Assets/MagicArsenal/InteractiveDemo/Scripts/FireProjectile.cs'
+'Assets/MagicArsenal/InteractiveDemo/Scripts/LoadSceneOnClick.cs'
+'Assets/MagicArsenal/InteractiveDemo/Scripts/Projectile.cs'
+'Assets/MagicArsenal/InteractiveDemo/Scripts/ProjectileScript.cs'
+'Assets/MagicArsenal/InteractiveDemo/Scripts/loopScript.cs'
+'Assets/MagicArsenal/InteractiveDemo/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs'
+'Assets/MagicArsenal/KunaiEditor/KunaiRotation.cs'
+'Assets/MagicArsenal/Scripts/lightScript.cs'
+'Assets/MagicArsenal/Scripts/lightScriptLong.cs'
+'Assets/MegaBook/Scripts/MBComplexPage.cs'
+'Assets/MegaBook/Scripts/MegaBookBendMod.cs'
+'Assets/MegaBook/Scripts/MegaBookBuilder.cs'
+'Assets/MegaBook/Scripts/MegaBookControl.cs'
+'Assets/MegaBook/Scripts/MegaBookDynamicMesh.cs'
+'Assets/MegaBook/Scripts/MegaBookMatrix.cs'
+'Assets/MegaBook/Scripts/MegaBookMouseControl.cs'
+'Assets/MegaBook/Scripts/MegaBookPage.cs'
+'Assets/MegaBook/Scripts/MegaBookPageAttach.cs'
+'Assets/MegaBook/Scripts/MegaBookVisible.cs'
+'Assets/MegaBook/Scripts/TextMeshProMesh.cs'
+'Assets/MegaBook/Scripts/TypogenicMesh.cs'
+'Assets/ResourceGlobes/DemoScene/DemoScript.cs'
+'Assets/ResourceGlobes/RB_ProgressChange.cs'
+'Assets/TypefaceAnimator/Demo/Scripts/Demo1.cs'
+'Assets/TypefaceAnimator/Demo/Scripts/Demo2.cs'
+'Assets/TypefaceAnimator/Scripts/TypefaceAnimator.cs'
+'Assets/Yama_CutIn/Scripts/CutInFillAmount.cs'
+'Assets/Yama_CutIn/Scripts/CutInFillAmountEnemy.cs'
+'Assets/Yama_CutIn/Scripts/EnemyDamage.cs'
+'Assets/Yama_CutIn/Scripts/EnemyPowerGageHandler.cs'
+'Assets/Yama_CutIn/Scripts/EnemyPowerProgress.cs'
+'Assets/Yama_CutIn/Scripts/PlayerDamage.cs'
+'Assets/Yama_CutIn/Scripts/PlayerPowerGageHandler.cs'
+'Assets/Yama_CutIn/Scripts/PowerProgress.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Example/Scripts/MessageBoxExample.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Example/Scripts/MessageContainerExample.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Integrations/ICode/Actions/AddMessage.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Integrations/ICode/Actions/ClearContainer.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Integrations/ICode/Actions/Close.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Integrations/ICode/Actions/Focus.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Integrations/ICode/Actions/GetWidget.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Integrations/ICode/Actions/RemoveMessage.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Integrations/ICode/Actions/SetProgress.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Integrations/ICode/Actions/Show.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Integrations/ICode/Actions/ShowMessageBox.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Integrations/ICode/Actions/Toggle.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/Chat.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/DragPanel.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/IValidation.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/KeyTrigger.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/MessageBox.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/MessageContainer.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/MessageOptions.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/MessageSlot.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/Progressbar.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/RadialMenu.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/RadialMenuItem.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/RadialMenuTrigger.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/ResizePanel.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/Tooltip.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/TooltipTrigger.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/Tween/EasingEquations.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/Tween/FloatTween.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/Tween/ITweenValue.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/Tween/TweenRunner.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/Tween/Vector3Tween.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/UIContainer.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/UICursor.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/UISlot.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/UIUtility.cs'
+'Assets/Yama_GUISystems/Unitycoding/UI Widgets/Scripts/Runtime/UIWidget.cs'
+'Assets/Yama_GUISystems/uGUI_Skin_pack/Scripts/ListBox.cs'
+'Assets/Yama_GUISystems/uGUI_Skin_pack/Scripts/MasterSkinManager.cs'
+'Assets/Yama_GUISystems/uGUI_Skin_pack/Scripts/Slider360.cs'
+'Assets/Yama_GUISystems/uGUI_Skin_pack/Scripts/Switch.cs'
+'Assets/Yama_GUISystems/zYama_GUI_Resources/Scripts/OnBack00.cs'
+'Assets/Yama_GUISystems/zYama_GUI_Resources/Scripts/OnBack01.cs'
+'Assets/Yama_GUISystems/zYama_GUI_Resources/Scripts/OnBack02.cs'
+'Assets/Yama_GUISystems/zYama_GUI_Resources/Scripts/OnBack03.cs'
+'Assets/Yama_GUISystems/zYama_GUI_Resources/Scripts/OnBack04.cs'
+'Assets/Yama_GUISystems/zYama_GUI_Resources/Scripts/OnBack05.cs'
+'Assets/Yama_PlayerTurn/Scripts/PlayerAttackCreate.cs'
+'Assets/Yama_PlayerTurn/Scripts/PlayerAttackMove.cs'
+'Assets/Yama_PlayerTurn/Scripts/RandomPathMove.cs'
+'Assets/Yama_Prefabs_Effects/Scripts/AutoEffectsDestroy.cs'
+'Assets/Yama_Prefabs_Effects/Scripts/DamageShake.cs'
+'Assets/Yama_Prefabs_Effects/Scripts/ParticleSize.cs'
+'Assets/Yama_Scripts/Battle_Common/AudioManager.cs'
+'Assets/Yama_Scripts/Battle_Common/AutoDestroy.cs'
+'Assets/Yama_Scripts/Battle_Common/BoardMove.cs'
+'Assets/Yama_Scripts/Battle_Common/ComboHandler.cs'
+'Assets/Yama_Scripts/Battle_Common/ComboManager.cs'
+'Assets/Yama_Scripts/Battle_Common/FrameManager.cs'
+'Assets/Yama_Scripts/Battle_Common/GageHandler.cs'
+'Assets/Yama_Scripts/Battle_Common/GameController.cs'
+'Assets/Yama_Scripts/Battle_Common/GameDate.cs'
+'Assets/Yama_Scripts/Battle_Common/GameFrame.cs'
+'Assets/Yama_Scripts/Battle_Common/LightMove.cs'
+'Assets/Yama_Scripts/Battle_Common/LongTapHandler.cs'
+'Assets/Yama_Scripts/Battle_Common/MiniJSON.cs'
+'Assets/Yama_Scripts/Battle_Common/MusicDate.cs'
+'Assets/Yama_Scripts/Battle_Common/PathRotate.cs'
+'Assets/Yama_Scripts/Battle_Common/PointHandler.cs'
+'Assets/Yama_Scripts/Battle_Common/Retry.cs'
+'Assets/Yama_Scripts/Battle_Common/ScoreCreator.cs'
+'Assets/Yama_Scripts/Battle_Common/ScoreHandler.cs'
+'Assets/Yama_Scripts/Battle_Common/ScoreLongUpController.cs'
+'Assets/Yama_Scripts/Battle_Common/Shadow2.cs'
+'Assets/Yama_Scripts/Battle_Common/Shadow_AfterImage.cs'
+'Assets/Yama_Scripts/Battle_Common/SpriteShadow.cs'
+'Assets/Yama_Scripts/Battle_Common/TimeManager.cs'
+'Assets/Yama_Scripts/Battle_Music/Music_01_Manager.cs'
+'Assets/Yama_Scripts2/MovieImage.cs'
+'Assets/Yama_Scripts2/OpeningToTopMenu.cs'
+'Assets/Yama_Scripts2/RogoToOpening.cs'
+'Assets/Yama_Scripts2/StartToRogo.cs'
+'Assets/Yama_Scripts2/ToGame.cs'
+'Assets/Yama_StartAction/Scripts/CRT.cs'
+'Assets/Yama_StartAction/Scripts/StaratActionEnemyInvoke.cs'
+'Assets/Yama_StartAction/Scripts/StartActionDoorInvoke.cs'
+'Assets/Yama_StartAction/Scripts/StartFadeInOff.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'
