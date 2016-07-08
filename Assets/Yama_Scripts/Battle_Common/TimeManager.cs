@@ -20,7 +20,7 @@ public class TimeManager : MonoBehaviour {
 	// iOSにBuild時のフレームレート問題の為 ***********************************************
 	void Awake () {
 		
-		Application.targetFrameRate = 60;
+		//Application.targetFrameRate = 60;
 		TimeManager.time            = 0f;
 		TimeManager.tick            = 0;
 

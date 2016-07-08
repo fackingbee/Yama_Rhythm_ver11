@@ -5,7 +5,10 @@
 /// UIに共通する処理はこのクラスで実装する
 /// </summary>
 
-[RequireComponent(typeof(RectTransform))]	// Rect Transformコンポーネントを必須にする
+// Rect Transformコンポーネントを必須にする
+// スクリプトをアタッチすると自動でコンポーネントも追加してくれるようにしている
+[RequireComponent(typeof(RectTransform))]
+
 public class ViewController : MonoBehaviour {
 
 	// Rect Transformコンポーネントをキャッシュ
