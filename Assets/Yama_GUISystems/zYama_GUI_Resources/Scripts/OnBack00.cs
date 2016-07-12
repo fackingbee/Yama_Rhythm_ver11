@@ -66,7 +66,7 @@ public class OnBack00 : MonoBehaviour {
 			OnImage00 ();
 
 			// 一度呼ばれたらむやみにUpdateに入らないようにする為に確認
-			Debug.Log ("hoge_0_1");	
+			//Debug.Log ("hoge_0_1");	
 
 		}else if(isChecked == false && toggle00.isOn == false){
 
@@ -74,7 +74,7 @@ public class OnBack00 : MonoBehaviour {
 			OffImage00 ();
 
 			// 一度呼ばれたらむやみにUpdateに入らないようにする為に確認
-			Debug.Log ("hoge_0_2");
+			//Debug.Log ("hoge_0_2");
 
 		} 
 

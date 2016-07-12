@@ -39,10 +39,10 @@ public class OnBack04 : MonoBehaviour {
 	void Update () {
 		if(isChecked == true && toggle04.isOn == true){
 			OnImage04 ();
-			Debug.Log ("hoge_4_1");
+			//Debug.Log ("hoge_4_1");
 		}else if(isChecked == false && toggle04.isOn == false){
 			OffImage04 ();
-			Debug.Log ("hoge_4_2");
+			//Debug.Log ("hoge_4_2");
 		}
 		if(isTouch && toggle04.isOn == true){
 			audioSource.PlayOneShot (onButton04,0.6f);
