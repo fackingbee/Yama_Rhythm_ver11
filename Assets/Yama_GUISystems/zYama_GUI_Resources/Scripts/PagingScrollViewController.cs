@@ -96,8 +96,8 @@ public class PagingScrollViewController : ViewController, IBeginDragHandler, IEn
 
 		// 先頭や末尾のページの場合、それ以上先にスクロールしないようにする
 		if(pageIndex < 0){
-			Debug.Log ("pageIndex : " + pageIndex);
-			Debug.Log ("grid.transform.childCount : " + grid.transform.childCount);
+			//Debug.Log ("pageIndex : " + pageIndex);
+			//Debug.Log ("grid.transform.childCount : " + grid.transform.childCount);
 			// 先頭の場合
 			pageIndex = 0;
 
@@ -105,8 +105,8 @@ public class PagingScrollViewController : ViewController, IBeginDragHandler, IEn
 
 		else if(pageIndex > grid.transform.childCount-1){
 			// 末尾の場合
-			Debug.Log ("pageIndex : " + pageIndex);
-			Debug.Log ("grid.transform.childCount : " + grid.transform.childCount);
+			//Debug.Log ("pageIndex : " + pageIndex);
+			//Debug.Log ("grid.transform.childCount : " + grid.transform.childCount);
 
 			pageIndex = grid.transform.childCount-1;
 		}

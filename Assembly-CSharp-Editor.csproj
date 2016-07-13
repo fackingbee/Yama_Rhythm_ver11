@@ -121,7 +121,7 @@
      <Compile Include="Assets\MegaBook\Scripts\Editor\MegaBookUndo.cs" />
      <Compile Include="Assets\TypefaceAnimator\Editor\TypefaceAnimatorEditor.cs" />
      <Compile Include="Assets\TypefaceAnimator\Editor\TypefaceTools.cs" />
-     <Compile Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Scripts\Editor\UIWidgetInspector.cs" />
+     <Compile Include="Assets\Unitycoding\UI Widgets\Scripts\Editor\UIWidgetInspector.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Editor\NestedAnimationCreator.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
@@ -201,7 +201,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
-     <None Include="Assets\Yama_GUISystems\Unitycoding\UI Widgets\Changelog.txt" />
+     <None Include="Assets\Unitycoding\UI Widgets\Changelog.txt" />
      <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
