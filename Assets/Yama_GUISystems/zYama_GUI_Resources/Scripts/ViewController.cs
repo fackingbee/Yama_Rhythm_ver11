@@ -21,8 +21,8 @@ public class ViewController : MonoBehaviour {
 			
 			//Rectのコンポーネントがなければ
 			if(cachedRectTransform == null){
+				
 				// 取得して
-
 				cachedRectTransform = GetComponent<RectTransform> ();
 
 			}
@@ -31,10 +31,11 @@ public class ViewController : MonoBehaviour {
 			return cachedRectTransform;
 
 		}
-
 	}
+
 
 	// ビューのタイトルを取得、設定するプロパティ
 	public virtual string Title { get { return ""; } set{} }
+
 
 }

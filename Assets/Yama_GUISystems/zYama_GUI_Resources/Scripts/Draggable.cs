@@ -20,6 +20,7 @@ public class Draggable :
 	/// なお、タッチ操作ではドラッグ中のアイコンが指に隠れて見えないので
 	/// </summary>
 
+
 	#region ドラッグ中アイコンの為の変数を宣言
 	[SerializeField]
 	//調整	// ドラッグ中のアイコンのオフセット格納変数
@@ -72,8 +73,13 @@ public class Draggable :
 		// 元のアイコンのImageコンポーネントを取得
 		Image sourceImage = GetComponent<Image>();
 
+		// ここでタグも見れる
+		//Debug.Log (sourceImage.tag);
+
 		// ドラッグ中のアイコンのゲームオブジェクトを作成
 		draggingObject    = new GameObject ("Dragging Object");
+
+		//Debug.Log (draggingObject.tag);
 
 		// 元のアイコンのカンバスの子要素にして、最前面に表示
 		draggingObject.transform.SetParent(sourceImage.canvas.transform);

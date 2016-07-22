@@ -26,6 +26,10 @@ TagManager:
   - Effects
   - PlayerAttack
   - EnemyAttack
+  - IgnoreMasterColor
+  - Equipment
+  - Item
+  - Support
   layers:
   - Default
   - TransparentFX
