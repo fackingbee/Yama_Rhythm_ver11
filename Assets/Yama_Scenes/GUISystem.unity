@@ -10283,7 +10283,7 @@ GameObject:
   - 222: {fileID: 345620466}
   - 114: {fileID: 345620465}
   m_Layer: 5
-  m_Name: ShopBackground
+  m_Name: Shop Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
