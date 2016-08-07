@@ -1,4 +1,14 @@
-﻿using UnityEngine;
+﻿
+
+
+/// <summary>
+/// 未使用（使うかもしれないので残しておく）
+/// </summary>
+
+
+
+
+using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 

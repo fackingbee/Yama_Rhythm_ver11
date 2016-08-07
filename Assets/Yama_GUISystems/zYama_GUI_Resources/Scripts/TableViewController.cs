@@ -255,7 +255,7 @@ public class TableViewController<T> : ViewController{
 		if(cells.Count < 1){
 
 			// 最初表示領域内の右端と上端からどれくらいの距離に作るか【現在は右から3.0f、上から-16.0fの位置に生成】
-			Vector2 cellTop = new Vector2( 3.0f, (-padding.top - 14.0f) );
+			Vector2 cellTop = new Vector2( 3.0f, (-padding.top - 2.0f) );
 
 			for(int i=0; i<tableData.Count; i++){
 

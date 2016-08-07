@@ -598,6 +598,8 @@
      <Compile Include="Assets\Yama_GUISystems\uGUI_Skin_pack\Scripts\Slider360.cs" />
      <Compile Include="Assets\Yama_GUISystems\uGUI_Skin_pack\Scripts\Switch.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\Draggable.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\DraggableAdvance.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\DropZone.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\Droppable.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack00.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack01.cs" />
