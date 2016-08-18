@@ -95,7 +95,7 @@ public class DraggableAdvance : MonoBehaviour, IBeginDragHandler, IDragHandler, 
 		if (dragObject == null){
 			
 			// Updateが常に呼ばれているので重くない？
-			Debug.Log ("Updateの処理");
+			//Debug.Log ("Updateの処理");
 
 			transform.localPosition -= transform.localPosition / 3.0f;
 

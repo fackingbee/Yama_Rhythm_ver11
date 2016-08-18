@@ -601,6 +601,7 @@
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\DraggableAdvance.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\DropZone.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\Droppable.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\NavigationViewController.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack00.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack01.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack02.cs" />
@@ -609,12 +610,15 @@
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\OnBack05.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\PageControl.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\PagingScrollViewController.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\ShopConfirmationViewController.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\ShopDetailViewController.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\ShopItemTableViewCell.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\ShopItemTableViewController.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\SpriteSheetManager.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\TableViewCell.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\TableViewController.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\ViewController.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\iTweenUIExtensions.cs" />
      <Compile Include="Assets\Yama_PlayerTurn\Scripts\PlayerAttackCreate.cs" />
      <Compile Include="Assets\Yama_PlayerTurn\Scripts\PlayerAttackMove.cs" />
      <Compile Include="Assets\Yama_PlayerTurn\Scripts\RandomPathMove.cs" />
