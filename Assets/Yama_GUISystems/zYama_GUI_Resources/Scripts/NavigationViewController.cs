@@ -61,7 +61,8 @@ public class NavigationViewController : ViewController {						// ViewController�
 
 		Vector2 lastViewPos = lastView.CachedRectTransform.anchoredPosition;
 
-		lastViewPos.x = -this.CachedRectTransform.rect.width;
+		// 下記の移動開始に合わせるが、左移動なので符号注意
+		lastViewPos.x = -this.CachedRectTransform.rect.width + (-60.0f);
 
 		lastView.CachedRectTransform.MoveTo(
 			lastViewPos, 0.3f, 0.0f, iTween.EaseType.easeOutSine, ()=>{
@@ -73,9 +74,15 @@ public class NavigationViewController : ViewController {						// ViewController�
 		// 新しいビューを画面右外から中央に移動する
 		newView.gameObject.SetActive(true);
 
+		// 右オペランドの値から移動し始め、その位置はShopアンカーのwidth
 		Vector2 newViewPos = newView.CachedRectTransform.anchoredPosition;
 
-		newView.CachedRectTransform.anchoredPosition = new Vector2(this.CachedRectTransform.rect.width, newViewPos.y);
+		// 教科書の初期値だと、移動し始める瞬間に次の画面が表示される。（アンカーポイントを広げきらなかったせいであるが、UIの都合で仕方が無い）
+		//newView.CachedRectTransform.anchoredPosition = new Vector2(this.CachedRectTransform.rect.width, newViewPos.y);
+
+		// なので、オフセットを設けるが、上記の『lastViewPos.x』も数値を合わせる必要がある。
+		newView.CachedRectTransform.anchoredPosition = new Vector2( this.CachedRectTransform.rect.width + 60.0f, newViewPos.y );
+
 
 		newViewPos.x = 0.0f;
 

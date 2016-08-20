@@ -597,6 +597,7 @@
      <Compile Include="Assets\Yama_GUISystems\uGUI_Skin_pack\Scripts\MasterSkinManager.cs" />
      <Compile Include="Assets\Yama_GUISystems\uGUI_Skin_pack\Scripts\Slider360.cs" />
      <Compile Include="Assets\Yama_GUISystems\uGUI_Skin_pack\Scripts\Switch.cs" />
+     <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\AlertViewController.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\Draggable.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\DraggableAdvance.cs" />
      <Compile Include="Assets\Yama_GUISystems\zYama_GUI_Resources\Scripts\DropZone.cs" />
