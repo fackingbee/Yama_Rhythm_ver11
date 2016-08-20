@@ -61,7 +61,9 @@ public class NavigationViewController : ViewController {						// ViewController�
 
 		Vector2 lastViewPos = lastView.CachedRectTransform.anchoredPosition;
 
-		lastViewPos.x = -this.CachedRectTransform.rect.width;
+		// 移動速度の都合で、移動開始時のアンカーポイントと数値を合わせる
+		//lastViewPos.x = -this.CachedRectTransform.rect.width;
+		lastViewPos.x = -this.CachedRectTransform.rect.width - 60.0f;
 
 		lastView.CachedRectTransform.MoveTo(
 			lastViewPos, 0.3f, 0.0f, iTween.EaseType.easeOutSine, ()=>{
@@ -75,7 +77,12 @@ public class NavigationViewController : ViewController {						// ViewController�
 
 		Vector2 newViewPos = newView.CachedRectTransform.anchoredPosition;
 
-		newView.CachedRectTransform.anchoredPosition = new Vector2(this.CachedRectTransform.rect.width, newViewPos.y);
+		// UI作成の都合でアンカーを広げきらなかったので、このままだと移動開始時に次の画面が映ってしまう
+		//newView.CachedRectTransform.anchoredPosition = new Vector2(this.CachedRectTransform.rect.width, newViewPos.y);
+
+		// よって、オフセットを設ける（但し、『lastViewPos.x』の数値も合わさないと、移動速度が変わるので注意）
+		newView.CachedRectTransform.anchoredPosition = new Vector2(this.CachedRectTransform.rect.width + 60.0f, newViewPos.y);
+
 
 		newViewPos.x = 0.0f;
 
@@ -112,7 +119,8 @@ public class NavigationViewController : ViewController {						// ViewController�
 
 		Vector2 lastViewPos     = lastView.CachedRectTransform.anchoredPosition;
 
-		lastViewPos.x           = this.CachedRectTransform.rect.width;
+		//lastViewPos.x         = this.CachedRectTransform.rect.width;
+		lastViewPos.x           = this.CachedRectTransform.rect.width + 60.0f;
 
 		lastView.CachedRectTransform.MoveTo(
 			lastViewPos, 0.3f, 0.0f, iTween.EaseType.easeOutSine, ()=>{
